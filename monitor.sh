@@ -10,10 +10,10 @@
 #####    CONFIG    ##################################################################################################
 configDir="$HOME/.config/solana" # the directory for the config files, eg.: /home/user/.config/solana
 ##### optional:        #
-identityPubkey=""      # identity pubkey for the validator, insert if autodiscovery fails
-voteAccount=""         # vote account address for the validator, specify if there are more than one or if autodiscovery fails
+identityPubkey="EUcJwf7jXskRE6NZBtFPVH2EedNvNYko8LL2WT62XctB"      # identity pubkey for the validator, insert if autodiscovery fails
+voteAccount="Bwkz1ddKoGE8hgiSV6HZLXi9RBLqfBi3HZb2QujzVGgz"         # vote account address for the validator, specify if there are more than one or if autodiscovery fails
 additionalInfo="on"    # set to 'on' for additional general metrics like balance on your vote and identity accounts, number of validator nodes, epoch number and percentage epoch elapsed
-binDir=""              # auto detection of the solana binary directory can fail or an alternative custom installation is preferred, in case insert like $HOME/solana/target/release
+binDir="/nvme_data/solana/Codie/solana/scripts/bin"              # auto detection of the solana binary directory can fail or an alternative custom installation is preferred, in case insert like $HOME/solana/target/release
 rpcURL=""              # default is localhost with port number autodiscovered, alternatively it can be specified like http://custom.rpc.com:port
 format="SOL"           # amounts shown in 'SOL' instead of lamports
 now=$(date +%s%N)      # date in influx format
