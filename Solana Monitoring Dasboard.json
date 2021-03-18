@@ -16,8 +16,8 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 38,
-  "iteration": 1610381468138,
+  "id": 10,
+  "iteration": 1616041397456,
   "links": [],
   "panels": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -204,7 +204,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -290,7 +290,7 @@
       "type": "stat"
     },
     {
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -363,7 +363,7 @@
       "type": "bargauge"
     },
     {
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -440,7 +440,7 @@
       "type": "stat"
     },
     {
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -517,7 +517,7 @@
       "type": "stat"
     },
     {
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -602,7 +602,7 @@
       "type": "stat"
     },
     {
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -677,7 +677,7 @@
       "type": "stat"
     },
     {
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "description": "Active stake on the validator.",
       "fieldConfig": {
         "defaults": {
@@ -757,7 +757,7 @@
       "type": "stat"
     },
     {
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -834,7 +834,7 @@
       "type": "stat"
     },
     {
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -911,7 +911,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(245, 54, 54, 0.9)"
       ],
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -1043,7 +1043,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -1161,7 +1161,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(245, 54, 54, 0.9)"
       ],
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "decimals": 0,
       "editable": true,
       "error": false,
@@ -1295,7 +1295,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(245, 54, 54, 0.9)"
       ],
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "decimals": 0,
       "editable": true,
       "error": false,
@@ -1429,7 +1429,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(245, 54, 54, 0.9)"
       ],
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "decimals": 0,
       "editable": true,
       "error": false,
@@ -1563,7 +1563,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(245, 54, 54, 0.9)"
       ],
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "decimals": 0,
       "editable": true,
       "error": false,
@@ -1691,7 +1691,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(245, 54, 54, 0.9)"
       ],
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "decimals": 2,
       "editable": true,
       "error": false,
@@ -1820,7 +1820,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -1939,7 +1939,7 @@
         "rgba(237, 129, 40, 0.89)",
         "rgba(50, 172, 45, 0.97)"
       ],
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "decimals": 1,
       "editable": true,
       "error": false,
@@ -2059,7 +2059,7 @@
       "valueName": "current"
     },
     {
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -2150,7 +2150,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "decimals": 2,
       "fieldConfig": {
         "defaults": {
@@ -2309,7 +2309,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -2426,7 +2426,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -2545,7 +2545,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "decimals": 2,
       "description": "",
       "fieldConfig": {
@@ -2664,7 +2664,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -2783,7 +2783,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "decimals": 2,
       "description": "",
       "fieldConfig": {
@@ -2916,7 +2916,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -3061,7 +3061,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -3218,7 +3218,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {}
@@ -3440,7 +3440,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -3597,7 +3597,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -3761,7 +3761,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -3917,7 +3917,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "fieldConfig": {
         "defaults": {
           "custom": {},
@@ -4038,7 +4038,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "telegraf",
+      "datasource": "InfluxDB-ca3",
       "editable": true,
       "error": false,
       "fieldConfig": {
@@ -4244,11 +4244,12 @@
       {
         "allValue": null,
         "current": {
-          "selected": true,
-          "text": "mainnet-node01",
-          "value": "mainnet-node01"
+          "isNone": true,
+          "selected": false,
+          "text": "None",
+          "value": ""
         },
-        "datasource": "telegraf",
+        "datasource": "InfluxDB-ca3",
         "definition": "SHOW TAG VALUES FROM nodemonitor WITH KEY=host",
         "error": null,
         "hide": 0,
@@ -4273,7 +4274,7 @@
         "auto_count": 30,
         "auto_min": "10s",
         "current": {
-          "selected": true,
+          "selected": false,
           "text": "30s",
           "value": "30s"
         },
@@ -4345,7 +4346,7 @@
             "$__all"
           ]
         },
-        "datasource": "telegraf",
+        "datasource": "InfluxDB-ca3",
         "definition": "",
         "error": null,
         "hide": 0,
@@ -4376,7 +4377,7 @@
             "$__all"
           ]
         },
-        "datasource": "telegraf",
+        "datasource": "InfluxDB-ca3",
         "definition": "",
         "error": null,
         "hide": 0,
@@ -4417,7 +4418,7 @@
     ]
   },
   "timezone": "",
-  "title": "Solana Validator Dashboard",
+  "title": "TIG Solana Validator Dashboard",
   "uid": "f2b2HcaGz",
-  "version": 44
+  "version": 3
 }
